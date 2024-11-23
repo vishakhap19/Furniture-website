@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* .start{
+    
+    text-decoration: underline;
+    font-weight: bold;    
+} */
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    flex-direction: row;
+}
+.navbar .search1{
+    position: relative;
+    right: 60px;
+}
+
+.navbar .nav-links a{
+    color: white;
+}
+.navbar .nav-links a:hover{
+    border: 2px solid white;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+.nav-links{
+    display: flex;
+    margin-top: 1px;
+    margin-left:5px;
+}
+
+.nav-links li{
+    margin: 0 30px;
+    padding:5px;
+    margin-right: 25px;
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image:url('4img.jpg'); 
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img-size: cover;
+    /* background-color:black; */
+}
+
+
+.header-content{
+    margin: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h1{
+    font: size 4vmin;
+    position: relative;
+    top: -8vh;
+}
+
+.header-content h3{
+    position: relative;
+    bottom: 19px
+}
+
+.btn{
+    padding:8px 15px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+
+}
+
+.info{
+    justify-content: space-between;
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 81vh;
+    
+    
+}
+.info .info-container{
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    
+    
+}
+
+.dashboard{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(160, 156, 156, 0.171);
+    border: radius 10px;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+.dashboard ul{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 30px;
+    width: 100%;
+}
+
+.dashboard ul li{
+    padding: 20px;
+    margin: 0 40px;
+    justify-content: space-between;
+}
+
+.shop-container{
+    top: 0;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 80vh;
+    overflow: auto;
+    height: 110vh;
+
+}
+.cards{
+text-align: center;
+color: black;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.151);
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+.search-box{
+    position: relative;
+    right: 110px;
+    top: 5px; 
+}
+
+.offer-page{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header2{
+    width: 100vw;
+    height: 70vh;
+    background-image:url('17\ Long\ Living\ Room\ Ideas\ _\ Home\ Design\ Lover.jpeg'); 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color:black;
+
+}
+.header-content2{
+  margin: 150px;
+    color:#0a5133;
+    text-align: center;
+}
+.offer h1{
+    position: relative;
+    bottom: 79px;
+}
+
+.gallary{
+    top: 0;
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 90vh;
+    overflow: auto;
+    height: 50vh;
+}
+.gallary.h1{
+    position: relative;
+    top: 3vh;
+}
+.gallary-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    bottom: 32vh;
+}
+.gallary-container img{
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+}
+
+
+.search-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vh;
+    height: 30vh;
+}
+.review{
+width: 100%;
+height: 100vh;
+background-color:grey;
+display: flex;
+flex-direction: row;
+}
+.review-content{
+    height: 100vh;
+    width: 50%;
+}
+.content-in{
+    position: relative;
+    top: 30vh;
+    left: 10vh;
+
+}
+
+.review-search{
+    height: 100vh;
+    width: 50%;
+}
+.review-boxes{
+   
+    width: 30%;
+    position:relative;
+    left: 40%;
+    top: 25%;
+}
+.review-boxes ul li{
+    padding:5px;
+}
+.review-boxes ul li input{
+    padding:10px;
+    width: 300px;
+}
+button{
+    padding:5px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+
+
+
